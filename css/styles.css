@@ -3,8 +3,6 @@ html, body {
 
 }
 
-
-
 header {
     color: black;
     margin: 10px;
@@ -58,7 +56,8 @@ nav {
 }
 
 #main-doc header {
-
+   text-align: left;
+   margin: 0;
 }
 
 p {
@@ -67,6 +66,36 @@ p {
     margin-inline-end: 1em;
     scroll-margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+@media screen and (max-width: 815px) {
+    #navbar ul {
+        border: 1px solid;
+        height: 207px
+    }
+    #navbar {
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 275px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+    }
+    #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 270px;
+    } 
+}
+
+@media screen and (max-width 400px) {
+    #main-doc {
+        margin-left: -10px;
+    }
+    
 }
 
 
