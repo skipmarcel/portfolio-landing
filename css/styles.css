@@ -50,11 +50,15 @@ nav {
     overflow-y: auto;
 }
 
-#main_doc {
+#main-doc {
     position: absolute;
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+}
+
+#main-doc header {
+
 }
 
 p {
