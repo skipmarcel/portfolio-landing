@@ -1,3 +1,9 @@
+html, body {
+    font-family: sans-serif;
+}
+
+
+
 header {
     color: black;
     margin: 10px;
@@ -39,6 +45,10 @@ nav {
 #navbar ul {
     height: 88%;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
+
+
 
 
