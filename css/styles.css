@@ -1,5 +1,6 @@
 html, body {
     font-family: sans-serif;
+
 }
 
 
@@ -47,6 +48,21 @@ nav {
     padding: 0;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+#main_doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-end: 1em;
+    scroll-margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
