@@ -10,13 +10,45 @@ header {
     font-size: 1.8em;
 }
 
+.maindoc-header {
+    background-color: rgba(0, 22, 22, 0.1);
+    padding-left: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.main-section {
+    margin-top: 10px;
+}
+
+#main-doc {
+    margin: 10px 40px 100px 5px;
+
+}
+
 .about-photo {
     width: 23%;
     margin: 5px 10px 10px 5px;
     border-radius: 6px;
+    float: inherit;
 }
 
 #about-me {
+    display: flex;
+    flex-direction: row;
+}
+
+#career-tech {
+    display: flex;
+    flex-direction: row;
+}
+
+#grizzly {
+    display: flex;
+    flex-direction: row;
+}
+
+#mech {
     display: flex;
     flex-direction: row;
 }
@@ -64,6 +96,7 @@ nav {
     margin-left: 310px;
     padding: 20px;
     margin-bottom: 110px;
+    margin-top: 0;
 }
 
 #main-doc header {
