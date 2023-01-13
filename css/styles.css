@@ -48,6 +48,10 @@ nav {
     display: block;
 }
 
+.nav-list a:hover {
+    background-color: rgba(0, 22, 22, 0.1);
+}
+
 #navbar {
     position: fixed;
     min-width: 290px;
