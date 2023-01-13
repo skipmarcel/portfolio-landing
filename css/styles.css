@@ -12,13 +12,16 @@ header {
 
 .maindoc-header {
     background-color: rgba(0, 22, 22, 0.1);
-    padding-left: 8px;
+    padding: 8px;
     border-radius: 6px;
     margin-bottom: 10px;
+    font-size: 1.5em;
 }
 
 .main-section {
     margin-top: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 #main-doc {
@@ -33,24 +36,47 @@ header {
     float: inherit;
 }
 
-#about-me {
-    display: flex;
-    flex-direction: row;
+.tech-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    float: inherit;
 }
 
-#career-tech {
-    display: flex;
-    flex-direction: row;
+.shop-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    float: inherit;
 }
 
-#grizzly {
-    display: flex;
-    flex-direction: row;
+.mech-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    float: inherit;
 }
 
-#mech {
-    display: flex;
-    flex-direction: row;
+.platt-photo {
+    width: 50%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    border: 2px solid #4d4e53;
+    float: inherit;
+}
+
+.sailboat-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    float: inherit;
+}
+
+.painting-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+    float: inherit;
 }
 
 nav {
