@@ -10,6 +10,17 @@ header {
     font-size: 1.8em;
 }
 
+.about-photo {
+    width: 23%;
+    margin: 5px 10px 10px 5px;
+    border-radius: 6px;
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+}
+
 nav {
     display: block;
 }
@@ -62,10 +73,7 @@ nav {
 
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-inline-end: 1em;
-    scroll-margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 815px) {
