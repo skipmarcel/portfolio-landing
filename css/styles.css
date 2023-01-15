@@ -24,16 +24,12 @@ header {
     flex-direction: row;
 }
 
-#main-doc {
-    margin: 10px 40px 100px 5px;
-
-}
-
 .small-img {
-    width: 23%;
+    display: block;
+    max-width: 23%;
+    height: auto;
     margin: 5px 10px 10px 5px;
     border-radius: 6px;
-    float: inherit;
 }
 
 .large-img {
@@ -41,7 +37,6 @@ header {
     margin: 5px 10px 10px 5px;
     border-radius: 6px;
     border: 2px solid #4d4e53;
-    float: inherit;
 }
 
 nav {
@@ -80,6 +75,10 @@ nav {
     color: #4d4e53;
 }
 
+p a {
+    text-decoration: none;
+}
+
 #navbar ul {
     height: 88%;
     padding: 0;
@@ -104,6 +103,8 @@ nav {
 p {
     display: block;
     margin-top: 0;
+    font-size: 0.95em;
+    font-weight: 100;
 }
 
 @media screen and (max-width: 950px) {
@@ -128,6 +129,11 @@ p {
         margin-top: 270px;
         min-width: 250px;
     } 
+}
+
+#white-space {
+    height: 500px;
+    width: auto;
 }
 
 
