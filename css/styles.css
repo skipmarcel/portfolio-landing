@@ -10,6 +10,10 @@ header {
     font-size: 1.8em;
 }
 
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 .maindoc-header {
     background-color: rgba(0, 22, 22, 0.1);
     padding: 8px;
@@ -22,14 +26,15 @@ header {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
+    font-weight: 100;
 }
 
 .small-img {
-    display: block;
     max-width: 23%;
     height: auto;
     margin: 5px 10px 10px 5px;
     border-radius: 6px;
+    float: left;
 }
 
 .large-img {
@@ -37,6 +42,7 @@ header {
     margin: 5px 10px 10px 5px;
     border-radius: 6px;
     border: 2px solid #4d4e53;
+    float: left;
 }
 
 nav {
@@ -75,7 +81,7 @@ nav {
     color: #4d4e53;
 }
 
-p a {
+ a {
     text-decoration: none;
 }
 
