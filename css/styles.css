@@ -81,7 +81,7 @@ nav {
     color: #4d4e53;
 }
 
- a {
+a {
     text-decoration: none;
 }
 
@@ -102,8 +102,8 @@ nav {
 }
 
 #main-doc header {
-   text-align: left;
-   margin: 0;
+    text-align: left;
+    margin: 0;
 }
 
 p {
