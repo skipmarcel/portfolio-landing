@@ -1,147 +1,143 @@
-html, body {
-    font-family: sans-serif;
-
+html,
+body {
+  font-family: sans-serif;
 }
 
 header {
-    color: black;
-    margin: 10px;
-    text-align: center;
-    font-size: 1.8em;
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
 }
 
 h4 {
-    font-family: 'Courier New', Courier, monospace;
+  font-family: sans-serif;
 }
 
 .maindoc-header {
-    background-color: rgba(0, 22, 22, 0.1);
-    padding: 8px;
-    border-radius: 6px;
-    margin-bottom: 10px;
-    font-size: 1.5em;
+  background-color: rgba(0, 22, 22, 0.1);
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 1.5em;
 }
 
 .main-section {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    font-weight: 100;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  font-weight: 100;
 }
 
 .small-img {
-    max-width: 23%;
-    height: auto;
-    margin: 5px 10px 10px 5px;
-    border-radius: 6px;
-    float: left;
+  max-width: 23%;
+  height: auto;
+  margin: 5px 10px 10px 5px;
+  border-radius: 6px;
+  float: left;
 }
 
 .large-img {
-    width: 50%;
-    margin: 5px 10px 10px 5px;
-    border-radius: 6px;
-    border: 2px solid #4d4e53;
-    float: left;
+  width: 50%;
+  margin: 5px 10px 10px 5px;
+  border-radius: 6px;
+  border: 2px solid #4d4e53;
+  float: left;
 }
 
 nav {
-    display: block;
+  display: block;
 }
 
 .nav-list a:hover {
-    background-color: rgba(0, 22, 22, 0.1);
-    transform: scale(110%);
+  background-color: rgba(0, 22, 22, 0.1);
+  transform: scale(110%);
 }
 
 #navbar {
-    position: fixed;
-    min-width: 290px;
-    top: 0px;
-    left: 0px;
-    width: 300px;
-    height: 100%;
-    border-right: 2px solid;
-    border-color: rgba(0, 22, 22, 0.4);
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid;
+  border-color: rgba(0, 22, 22, 0.4);
 }
 
 #navbar li {
-    color: #4d4e53;
-    border-top: 1px solid;
-    list-style: none;
-    position: relative;
-    width: 100%;
+  color: #4d4e53;
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
 }
 
 #navbar a {
-    display: block;
-    padding: 10px 30px;
-    text-decoration: none;
-    cursor: pointer;
-    color: #4d4e53;
+  display: block;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #4d4e53;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #navbar ul {
-    height: 88%;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
+  height: 88%;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 #main-doc {
-    position: absolute;
-    margin-left: 350px;
-    padding: 20px;
-    margin-bottom: 110px;
-    margin-top: 0;
-    margin-right: 100px;
+  position: absolute;
+  margin-left: 350px;
+  padding: 20px;
+  margin-bottom: 110px;
+  margin-top: 0;
+  margin-right: 100px;
 }
 
 #main-doc header {
-    text-align: left;
-    margin: 0;
+  text-align: left;
+  margin: 0;
 }
 
 p {
-    display: block;
-    margin-top: 0;
-    font-size: 0.95em;
-    font-weight: 100;
+  display: block;
+  margin-top: 0;
+  font-size: 0.95em;
+  font-weight: 100;
 }
 
 @media screen and (max-width: 950px) {
-    #navbar ul {
-        border: 1px solid;
-        height: 207px
-    }
-    #navbar {
-        position: absolute;
-        top: 0;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        max-height: 275px;
-        border: none;
-        z-index: 1;
-        border-bottom: 2px solid;
-    }
-    #main-doc {
-        position: relative;
-        margin-left: 0px;
-        margin-top: 270px;
-        min-width: 250px;
-    } 
+  #navbar ul {
+    border: 1px solid;
+    height: 207px;
+  }
+  #navbar {
+    position: absolute;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 270px;
+    min-width: 250px;
+  }
 }
 
 #white-space {
-    height: 500px;
-    width: auto;
+  height: 500px;
+  width: auto;
 }
-
-
-
-
